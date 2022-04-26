@@ -252,9 +252,21 @@ main p:nth-of-type(2) {
         display: none;
     }
 
+    .hero-center {
+        width: 540px;
+        margin: 0px 88px;
+    }
+
+    .hero-center h1 {
+        font-size: 64px;
+        line-height: 64px;
+        text-align: center;
+    }
+
     .action-images img {
         width: 255px;
         height: 242px;
+        margin-bottom: 80px;
     }
 
     .hero-left, .hero-right {
@@ -264,7 +276,57 @@ main p:nth-of-type(2) {
     .hero {
         display: flex;
         justify-content: center;
+        margin-bottom: 110px;
     }
 
+    .logo {
+        margin-top: 80px;
+        margin-bottom: 61px;
+    }
 
+    .subtitle {
+        margin-bottom: 16px;
+    }
+
+    .main-title {
+        margin-bottom: 32px;
+    }
+
+    .main p {
+        margin-bottom: 72px;
+        width: 540px;
+    }
+
+    .secondary-title {
+        line-height: 44px;
+        font-size: 40px;
+        width: 445px;
+    }
+
+    .footer {
+        height: 308px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 116px 165px 104px 165px;
+    }
+
+    .footer-title {
+        text-align: left;
+        font-size: 40px;
+        line-height: 44px;
+        padding: 0;
+        margin-bottom: 0;
+        margin-right: 125px;
+        width: 350px;
+    }
+
+    .footer p {
+        width: 350px;
+        font-size: 18px;
+        line-height: 26px;
+        margin-right: 92px;
+        text-align: left;
+    }
 }
